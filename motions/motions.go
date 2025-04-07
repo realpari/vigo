@@ -1,6 +1,6 @@
 package motions
 
-func basicMotion(key string) string {
+func BasicMotion(key string) string {
 	switch key {
 	case "j":
 		return "down"

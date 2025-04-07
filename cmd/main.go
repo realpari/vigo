@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/realpari/motions"
+	"github.com/realpari/vigo/motions"
 	"os"
 	"strings"
 )
@@ -19,7 +19,7 @@ func main() {
 		}
 		input = strings.TrimSpace(input)
 
-		output := motions.basicMotion(input)
+		output := motions.BasicMotion("j")
 		fmt.Println(output)
 	}
 }
