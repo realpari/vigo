@@ -19,7 +19,7 @@ func main() {
 		}
 		input = strings.TrimSpace(input)
 
-		output := motions.BasicMovement(input)
+		output := motions.BasicActions(input)
 		fmt.Println(output)
 	}
 }
